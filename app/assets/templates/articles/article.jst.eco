@@ -1,0 +1,4 @@
+<div class="article-main">
+  <h3><a href="javascript:;"><%= @article.get('title') %></a></h3>
+  <p><%- @article.getTruncatedText(20) %></p>
+</div>

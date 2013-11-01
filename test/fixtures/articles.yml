@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  text: MyText
+  labels: MyText
+  is_project: false
+  is_paper: false
+
+two:
+  title: MyString
+  text: MyText
+  labels: MyText
+  is_project: false
+  is_paper: false

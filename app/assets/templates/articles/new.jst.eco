@@ -1,0 +1,10 @@
+<h1>New Blog Post</h1>
+
+<form id="new_article">
+  <input type="text" name="title" id="title">
+  <input type="text" name="text" id="text">
+  <input type="text" name="labels" id="labels">
+  <input type="checkbox" name="is_project" id="is_project">
+  <input type="checkbox" name="is_paper" id="is_paper">
+  <input type="submit" value="Add">
+</form>

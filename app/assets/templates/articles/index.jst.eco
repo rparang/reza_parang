@@ -1,0 +1,23 @@
+<% if @type == 'all': %>
+  <div id="blogs">
+    <h1>Blog Articles</h1>
+  </div>
+  <div id="projects">
+    <h1>Projects</h1>
+  </div>
+  <div id="papers">
+    <h1>Papers</h1>
+  </div>
+<% else if @type == 'blog': %>
+  <div id="blogs">
+    <h1>Blog Articles</h1>
+  </div>
+<% else if @type == 'project': %>
+  <div id="projects">
+    <h1>Projects</h1>
+  </div>
+<% else if @type == 'paper': %>
+  <div id="papers">
+    <h1>Papers</h1>
+  </div>
+<% end %>

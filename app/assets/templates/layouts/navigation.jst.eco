@@ -1,0 +1,11 @@
+<nav class="column nav">
+  <ul class="unstyled">
+    <li id="home" class="logo">Reza Parang</li>
+    <li id="about">About</li>
+    <li id="blog">Blog</li>
+    <li id="projects">Projects</li>
+    <li id="papers">Papers</li>
+  </ul>
+</nav>
+<div id="content" class="column content">
+</div>
