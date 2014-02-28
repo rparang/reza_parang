@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  margin: .83em 0;
+  margin: 0.4em 0;
 }
 
 h3 {
@@ -58,6 +58,19 @@ i {
   font-weight: 300;
   color: #888;
   font-size: 14px;
+}
+
+blockquote {
+  margin: 1em 40px;
+}
+
+.content-quote {
+  font-family: "Georgia", serif;
+  color: #666;
+  font-style: italic;
+  line-height: 1.8;
+  border-left: 5px solid #ddd;
+  padding-left: 1.5em;
 }
 
 .header {

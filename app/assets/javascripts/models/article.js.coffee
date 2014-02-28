@@ -10,6 +10,6 @@ class RezaParang.Models.Article extends Backbone.Model
   formatDate: ->
     date = new Date(this.get('created_at'))
     day = date.getDate();
-    month = date.getMonth();
+    month = date.getMonth() + 1;
     year = date.getFullYear();
     return month + "/" + day + "/" + year
