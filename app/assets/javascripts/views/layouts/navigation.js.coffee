@@ -3,7 +3,7 @@ class RezaParang.Views.Navigation extends Backbone.View
   template: JST['layouts/navigation']
   events:
     'click #home': 'goToHome'
-    'click #about': 'goToAbout'
+    #'click #about': 'goToAbout'
     'click #blog': 'goToBlog'
     'click #projects': 'goToProjects'
     'click #papers': 'goToPapers'
@@ -15,8 +15,8 @@ class RezaParang.Views.Navigation extends Backbone.View
   goToHome: ->
     Backbone.history.navigate("/", true)
 
-  goToAbout: ->
-    Backbone.history.navigate("/about", true)
+  #goToAbout: ->
+  #  Backbone.history.navigate("/about", true)
 
   goToBlog: ->
     Backbone.history.navigate("/blog", true)

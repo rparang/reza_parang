@@ -6,3 +6,10 @@ class RezaParang.Models.Article extends Backbone.Model
         return this.get('text')
       else
         return this.get('text').split(' ').slice(0, number_of_words).join(',').replace(/,/g , " ")+"..."
+
+  formatDate: ->
+    date = new Date(this.get('created_at'))
+    day = date.getDate();
+    month = date.getMonth();
+    year = date.getFullYear();
+    return month + "/" + day + "/" + year

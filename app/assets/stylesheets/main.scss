@@ -12,8 +12,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  font-family: "omnes-pro", sans-serif;
   font-size: 2em;
-  margin: .67em 0;
+  margin: .50em 0 !important;
 }
 
 h2 {
@@ -43,13 +44,20 @@ h6 {
 
 p {
   margin: 10px 0;
-  line-height: 18px;
+  line-height: 20px;
   font-size: 16px;
 }
 
 a {
   text-decoration: none;
   color: $blue;
+}
+
+i {
+  margin: 2em 0 1em 0;
+  font-weight: 300;
+  color: #888;
+  font-size: 14px;
 }
 
 .header {
@@ -74,7 +82,7 @@ div {
   @include clearfix();
   margin: 20px auto 200px auto;
   height: 100%;
-  width: 900px;
+  width: $container-width;
 }
 
 .column {
@@ -82,7 +90,7 @@ div {
 }
 
 .content {
-  width: 700px;
+  width: $content-width;
 }
 
 ul.unstyled {
@@ -99,23 +107,40 @@ ul.unstyled {
   li {
     margin-bottom: 4px;
   }
+  li:hover {
+    cursor: pointer;
+  }
+}
+
+.bio {
+  font-size: 14px;
+  margin: 20px 5px 20px 0;
+  color: $grayLight;
 }
 
 .logo {
-  font-weight: bold;
-  border-left: 5px solid $blue;
-  padding-left: 20px;
-  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-left: 5px solid #3d9ad1;
+  padding-left: 9px;
+  font-size: 16px;
   margin-bottom: 10px !important;
 }
 
 .article {
   //@include clearfix();
-  margin: 30px 0;
+  margin: 10px 0 20px 0;
 }
 
 .article-main {
   //float: left;
+}
+
+.article-image {
+  width: $content-width;
+  display: block;
+  margin: 20px 0;
 }
 
 .footer {

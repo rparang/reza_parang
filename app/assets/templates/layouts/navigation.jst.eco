@@ -1,12 +1,12 @@
 <nav class="column nav">
   <ul class="unstyled">
     <li id="home" class="logo">Reza Parang</li>
-    <li id="about">About</li>
     <li id="blog">Blog</li>
     <li id="projects">Projects</li>
     <li id="papers">Papers</li>
   </ul>
+  <div class="bio">I'm a developer, product manager, and full time wiseguy.<br/><br/>I write here about my projects.</div>
 </nav>
 <div id="content" class="column content">
 </div>
-<div class="footer">&copy; 2013 Reza Parang - <a href="http://www.twitter.com/RezaParang" target="_blank">Twitter</a></div>
+<div class="footer">&copy; 2014 Reza Parang - <a href="http://www.twitter.com/RezaParang" target="_blank">Twitter</a></div>

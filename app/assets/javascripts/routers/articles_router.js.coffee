@@ -1,7 +1,7 @@
 class RezaParang.Routers.Articles extends Backbone.Router
   routes:
     '': 'index'
-    'about': 'about'
+    #'about': 'about'
     'blog': 'blog'
     'projects': 'projects'
     'papers': 'papers'
@@ -15,9 +15,9 @@ class RezaParang.Routers.Articles extends Backbone.Router
   index: ->
     @renderContent("all")
 
-  about: ->
-    view = new RezaParang.Views.About()
-    $('#content').html(view.render().el)
+  #about: ->
+  #  view = new RezaParang.Views.About()
+  #  $('#content').html(view.render().el)
 
   blog: ->
     @renderContent("blog")
