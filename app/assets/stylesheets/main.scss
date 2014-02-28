@@ -72,7 +72,8 @@ div {
 
 #container {
   @include clearfix();
-  margin: 0 auto;
+  margin: 20px auto 200px auto;
+  height: 100%;
   width: 900px;
 }
 
@@ -117,3 +118,15 @@ ul.unstyled {
   //float: left;
 }
 
+.footer {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  font-style: italic;
+  color: $grayLighter;
+  margin-top: 30px;
+  a {
+    color: $grayLighter;
+  }
+}
